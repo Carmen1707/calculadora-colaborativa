@@ -8,6 +8,10 @@ System.out.println("Suma 10 + 5 = " + calc.sumar(10, 5));
 System.out.println("Resta 10 - 5 = " + calc.restar(10, 5)); 
 System.out.println("Multiplicacion 10 * 5 = " + calc.multiplicar(10, 5));
 System.out.println("Dividir 10 / 5 = " + calc.dividir(10, 5));
+<<<<<<< HEAD
+=======
+private String ultimaOperacion = "Ninguna";
+>>>>>>> historial-B2
 // === ZONA USUARIO A === 
     
     // Función para sumar
@@ -23,11 +27,14 @@ System.out.println("Dividir 10 / 5 = " + calc.dividir(10, 5));
         public static double restar(double a, double b) {
             return a - b;
         }
+
+        public String getUltimaOperacion() {
+            return ultimaOperacion;
+        }
 // === ZONA USUARIO C === 
 
 public static double multiplicar(double a, double b) {
     return a * b;
 }
-
 
 }
