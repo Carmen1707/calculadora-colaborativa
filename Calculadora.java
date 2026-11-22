@@ -8,10 +8,9 @@ System.out.println("Suma 10 + 5 = " + calc.sumar(10, 5));
 System.out.println("Resta 10 - 5 = " + calc.restar(10, 5)); 
 System.out.println("Multiplicacion 10 * 5 = " + calc.multiplicar(10, 5));
 System.out.println("Dividir 10 / 5 = " + calc.dividir(10, 5));
-<<<<<<< HEAD
-=======
 private String ultimaOperacion = "Ninguna";
->>>>>>> historial-B2
+System.out.println("Division 10 / 2 = " + calc.dividir(10, 2));
+
 // === ZONA USUARIO A === 
     
     // Función para sumar
