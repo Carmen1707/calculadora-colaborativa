@@ -18,8 +18,12 @@ System.out.println("Division 10 / 2 = " + calc.dividir(10, 2));
             return a + b;
         }
 
-        public double dividir(double a, double b) {
-        return a / b;
+       public double dividir(double a, double b) {
+            if (b == 0) {
+                throw new ArithmeticException("Error: No es posible dividir entre cero.");
+            }
+
+            return a / b;
         }
 
 // === ZONA USUARIO B === 
